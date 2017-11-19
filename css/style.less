@@ -1,0 +1,36 @@
+@blue: #128bcf;
+@white: #fff;
+@red: #ce000d;
+
+.container-fluid {
+    padding: 75px;
+    background-color: @blue;
+    .jumbotron {
+        padding: 45px 135px 0;
+        background-color: @white;        
+        div:not(:first-child){
+            text-align: center;
+            font-weight: 700;
+        } 
+        .input-group {
+            margin-bottom: 15px;
+        } 
+        .pallet {
+            display: none;
+        }      
+    }
+    .btn {
+        font-weight: 600;
+        &-danger {
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: @red;
+        }
+    }
+}
+.vcenter {
+    line-height: 80px;
+  }
+.pull-right {
+      text-align: right;
+  }
