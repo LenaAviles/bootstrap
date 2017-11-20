@@ -24,9 +24,21 @@
   padding-right: 50px;
   background-color: #ce000d;
 }
-.vcenter {
-  line-height: 80px;
+.row {
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .pull-right {
   text-align: right;
+}
+.custom {
+  color: transparent !important;
+}
+select {
+  height: 34px;
+}
+option {
+  background-color: #ffffff;
+  color: #000000;
 }

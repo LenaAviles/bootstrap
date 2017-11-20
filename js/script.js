@@ -23,4 +23,11 @@ $(document).ready(function(){
         if($('body').find('.fieldGroup').length > 1){
             $('body').find('.jumbotron:last').remove();
         }});
+
+        $("body").on("click",".btn-toggle",function(){
+        $(this).parents(".fieldGroup").find('.pallet').toggle();
+        $(this).parents(".fieldGroup").find('.parcel').toggle();
+    });
+    
+
 });

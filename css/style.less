@@ -1,6 +1,7 @@
 @blue: #128bcf;
 @white: #fff;
 @red: #ce000d;
+@black: #000;
 
 .container-fluid {
     padding: 75px;
@@ -28,9 +29,23 @@
         }
     }
 }
-.vcenter {
-    line-height: 80px;
+.row {
+    display: flex;
+    align-items: center;
+    align-content: center;    
   }
+
 .pull-right {
       text-align: right;
   }
+
+  .custom {
+    color: transparent !important;    
+  }
+
+  select {height: 34px;}
+
+  option {
+      background-color: @white;
+      color: @black;
+    }

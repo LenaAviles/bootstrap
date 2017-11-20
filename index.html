@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Hello, world!</title>
-    <!-- Required meta tags -->
+    <!--   meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,8 +10,7 @@
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/bootstrap-toggle.css" rel="stylesheet">           
+    <link rel="stylesheet" href="css/style.css">         
   </head>
   <body>
     <div class="container-fluid">    
@@ -36,18 +35,14 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="input-group">
-                        <div class="input-group-btn">
-                            <button type="button" data-toggle="dropdown"
-                                    class="btn btn-primary dropdown-toggle">
-                                Belgium
-                                <span class="caret" ></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action 1</a></li>
-                                <li><a href="#">Action 2</a></li>
-                                <li><a href="#">Action 3</a></li>
-                            </ul>
-                        </div>
+                            <div class="input-group-btn">
+                        <select class="btn btn-primary">
+                            <option value="volvo">Belgium</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                          </select>
+                            </div>
                         <input type="text" class="form-control" placeholder="Zip code, Address"/>
                     </div>
                 </div>
@@ -56,24 +51,24 @@
         <form action="" class="fieldGroup fieldGroupCopy">            
             <div class="row">                    
                 
-            <div class="col-md-2 vcenter">                    
+            <div class="col-md-2 vcenter parcel">
+                <div class="btn-group parcel ">
+                    <button class="btn btn-primary btn-toggle">PARCEL</button>
+                    <button class="btn btn-default btn-toggle custom">1</button>                    
+                </div>               
+            </div>
 
-                <input type="checkbox" data-toggle="toggle" data-on="PARCEL" data-off="PALLET" checked>
-                <!-- <input type="checkbox" id="toggle-two"> -->
-                <!-- <script>
-                    $(function() {
-                    $('#toggle-two').bootstrapToggle({
-                        on: 'Enabled',
-                        off: 'Disabled'
-                    });
-                    })
-                </script>  -->
+            <div class="col-md-2 vcenter pallet"> 
+                <div class="btn-group pallet">                    
+                    <button class="btn btn-default btn-toggle custom">1</button> 
+                    <button class="btn btn-primary btn-toggle">PALLET</button>                   
+                </div>                
             </div>
 
             <div class="form-group col-md-2 parcel">
                 <label for="Weight" class="text-center">Weight:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Kg</span>
                 </div>
             </div>
@@ -81,7 +76,7 @@
             <div class="form-group col-md-2 parcel">
                 <label for="Length" class="text-center">Length:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Cm</span>
                 </div>
             </div>
@@ -89,7 +84,7 @@
             <div class="form-group col-md-2 parcel">
                 <label for="Width" class="text-center">Width:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Cm</span>
                 </div>
             </div>
@@ -97,7 +92,7 @@
             <div class="form-group col-md-2 parcel">
                 <label for="Height" class="text-center">Height:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Cm</span>
                 </div>
             </div>
@@ -105,7 +100,7 @@
             <div class="form-group col-md-2 pallet">
                 <label for="Height" class="text-center">Number of pallets:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Pcs</span>
                 </div>
             </div>
@@ -113,7 +108,7 @@
             <div class="form-group col-md-2 pallet">
                 <label for="Height" class="text-center">Height:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Cm</span>
                 </div>
             </div>
@@ -121,7 +116,7 @@
             <div class="form-group col-md-2 pallet">
                 <label for="Height" class="text-center">Weight for pallet:</label>
                 <div class="input-group">                
-                    <input type="text" class="form-control" required />
+                    <input type="text" class="form-control"   />
                     <span class="input-group-addon">Kg</span>
                 </div>
             </div>
@@ -143,8 +138,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap-toggle.js"></script>  
+    <script src="js/bootstrap.js"></script> 
     <script src="js/script.js"></script> 
   </body>
 </html>
