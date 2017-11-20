@@ -1,1 +1,46 @@
-.container-fluid{padding:75px;background-color:#128bcf}.container-fluid .jumbotron{padding:5% 15% 0;background-color:#fff}.container-fluid .jumbotron div:not(:first-child){text-align:center;font-weight:700}.container-fluid .jumbotron .input-group{margin-bottom:15px}.container-fluid .jumbotron .pallet{display:none}.container-fluid .btn{font-weight:600}.container-fluid .btn-danger{padding-left:50px;padding-right:50px;background-color:#ce000d}.row{display:flex;align-items:center;align-content:center}.pull-right{text-align:right}.custom{color:transparent!important}select{height:34px;background-color:#337ab7!important;color:#fff}option{background-color:#fff;color:#000}
+.container-fluid {
+  padding: 5%;
+  background-color: #128bcf;
+}
+.container-fluid .jumbotron {
+  padding: 5% 15% 0;
+  background-color: #ffffff;
+}
+.container-fluid .jumbotron div:not(:first-child) {
+  text-align: center;
+  font-weight: 700;
+}
+.container-fluid .jumbotron .input-group {
+  margin-bottom: 15px;
+}
+.container-fluid .jumbotron .pallet {
+  display: none;
+}
+.container-fluid .btn {
+  font-weight: 600;
+}
+.container-fluid .btn-danger {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ce000d;
+}
+.row {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.pull-right {
+  text-align: right;
+}
+.custom {
+  color: transparent !important;
+}
+select {
+  height: 34px;
+  background-color: #337ab7 !important;
+  color: #ffffff;
+}
+option {
+  background-color: #ffffff;
+  color: #000000;
+}
