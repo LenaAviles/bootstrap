@@ -2,12 +2,13 @@
 @white: #fff;
 @red: #ce000d;
 @black: #000;
+@btn-blue: #337ab7;
 
 .container-fluid {
     padding: 75px;
     background-color: @blue;
     .jumbotron {
-        padding: 45px 135px 0;
+        padding: 5% 15% 0;
         background-color: @white;        
         div:not(:first-child){
             text-align: center;
@@ -41,9 +42,15 @@
 
   .custom {
     color: transparent !important;    
-  }
+  } 
 
-  select {height: 34px;}
+  select {      
+      height: 34px;
+      background-color: @btn-blue !important; 
+      color: @white;
+    }
+    
+    
 
   option {
       background-color: @white;
