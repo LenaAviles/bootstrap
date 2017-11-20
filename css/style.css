@@ -1,1 +1,32 @@
-.container-fluid{padding:75px;background-color:#128bcf}.container-fluid .jumbotron{padding:45px 135px 0;background-color:#fff}.container-fluid .jumbotron div:not(:first-child){text-align:center;font-weight:700}.container-fluid .jumbotron .input-group{margin-bottom:15px}.container-fluid .jumbotron .pallet{display:none}.container-fluid .btn{font-weight:600}.container-fluid .btn-danger{padding-left:50px;padding-right:50px;background-color:#ce000d}.vcenter{line-height:80px}.pull-right{text-align:right}
+.container-fluid {
+  padding: 75px;
+  background-color: #128bcf;
+}
+.container-fluid .jumbotron {
+  padding: 45px 135px 0;
+  background-color: #ffffff;
+}
+.container-fluid .jumbotron div:not(:first-child) {
+  text-align: center;
+  font-weight: 700;
+}
+.container-fluid .jumbotron .input-group {
+  margin-bottom: 15px;
+}
+.container-fluid .jumbotron .pallet {
+  display: none;
+}
+.container-fluid .btn {
+  font-weight: 600;
+}
+.container-fluid .btn-danger {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ce000d;
+}
+.vcenter {
+  line-height: 80px;
+}
+.pull-right {
+  text-align: right;
+}
