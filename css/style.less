@@ -8,7 +8,7 @@
     padding: 5%;
     background-color: @blue;
     .jumbotron {
-        padding: 5% 15% 0;
+        padding: 3% 15% 0;
         background-color: @white;        
         div:not(:first-child){
             text-align: center;
@@ -21,7 +21,7 @@
             display: none;
         }      
     }
-    .btn {
+    .btn {        
         font-weight: 600;
         &-danger {
             padding-left: 50px;
@@ -31,9 +31,11 @@
     }
 }
 .row {
+    padding-top: 1%; 
     display: flex;
     align-items: center;
-    align-content: center;    
+    align-content: center; 
+    flex-wrap: wrap;   
   }
 
 .pull-right {
@@ -55,4 +57,8 @@
   option {
       background-color: @white;
       color: @black;
+    }
+
+    .submit {
+        margin-top: 1%;
     }

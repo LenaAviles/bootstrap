@@ -33,11 +33,16 @@ $(document).ready(function(){
     
     //console output
     $(".submit").click(function(){
+        var from = $('body').find('.address').find('.from');
+        var to = $('body').find('.address').find('.to');
+        // console.log(from.find('select'));
+        console.log ("FROM: " + from.find('select').val() + ' ' + from.find('input').val());
+        console.log ("TO: " + to.find('select').val() + ' ' + to.find('input').val());
         $('body').find('.fieldGroup').each(function(index) {            
             var pallet = $(this).find('.pallet');
             var parcel = $(this).find('.parcel');
             var palletDisplay = pallet.css("display");
-            if (palletDisplay == "none") {  
+            if (palletDisplay == "none") {                 
                 console.log(index + ": PARCEL");                            
                 parcel.each(function(){
                     var label = $( this ).find( "label" ).text();
