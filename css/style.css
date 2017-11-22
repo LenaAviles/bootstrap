@@ -1,3 +1,7 @@
+body {
+  min-height: 100%;
+}
+
 .container-fluid {
   padding: 5%;
   background-color: #128bcf;
