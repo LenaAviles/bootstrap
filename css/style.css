@@ -1,11 +1,7 @@
-body {
-  min-height: 100vh;
-}
-
 .container-fluid {
   padding: 5%;
   background-color: #128bcf;
-  min-height: 100%;
+  min-height: 100vh;
 }
 .container-fluid .jumbotron {
   padding: 3% 15% 0;
