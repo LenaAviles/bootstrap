@@ -3,16 +3,8 @@ $(document).ready(function(){
     var maxGroup = 10;
     
     //add more fields group
-    function addBlock(){
-        if($('body').find('.fieldGroup').length < maxGroup){
-            var fieldHTML = '<div class="jumbotron">\
-            <div class="form-group fieldGroup">'
-            +$(".fieldGroupCopy").html()+'</div> </div>';
-            $('body').find('.jumbotron:last').after(fieldHTML);
-        }else{
-            alert('Maximum '+maxGroup+' groups are allowed.');
-        }
-    }
+    addBlock();
+    addBlock();
     $(".addMore").click(addBlock());
     
     //remove fields group
@@ -67,3 +59,14 @@ $(document).ready(function(){
     });
 });
 });
+
+function addBlock(){
+        if($('body').find('.fieldGroup').length < maxGroup){
+            var fieldHTML = '<div class="jumbotron">\
+            <div class="form-group fieldGroup">'
+            +$(".fieldGroupCopy").html()+'</div> </div>';
+            $('body').find('.jumbotron:last').after(fieldHTML);
+        }else{
+            alert('Maximum '+maxGroup+' groups are allowed.');
+        }
+    }
