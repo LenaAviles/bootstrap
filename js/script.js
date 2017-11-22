@@ -3,7 +3,7 @@ $(document).ready(function(){
     var maxGroup = 10;
     
     //add more fields group
-    $(".addMore").click(function(){
+    function addBlock(){
         if($('body').find('.fieldGroup').length < maxGroup){
             var fieldHTML = '<div class="jumbotron">\
             <div class="form-group fieldGroup">'
@@ -12,7 +12,8 @@ $(document).ready(function(){
         }else{
             alert('Maximum '+maxGroup+' groups are allowed.');
         }
-    });
+    }
+    $(".addMore").click(addBlock());
     
     //remove fields group
     $("body").on("click",".remove",function(){ 
